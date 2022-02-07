@@ -80,7 +80,7 @@ class RestaurantTest {
 
     //>>>>>>>>>>>>>>>>>>>>>>>>>>>MENU PRICE<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-/*    @Test
+    @Test
     public void checking_menu_items_price_true_condition() throws itemNotFoundException {
         LocalTime openingTime = LocalTime.parse("10:30:00");
         LocalTime closingTime = LocalTime.parse("22:00:00");
@@ -97,7 +97,7 @@ class RestaurantTest {
         assertEquals(220, totalCost);
 
 
-    }*/
+    }
 
 
     @Test
