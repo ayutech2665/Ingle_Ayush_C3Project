@@ -54,7 +54,7 @@ public class Restaurant {
         menu.remove(itemToBeRemoved);
     }
 
-/*    public int getPriceOfItems(List<Item> listOfItems) throws itemNotFoundException {
+    public int getPriceOfItems(List<Item> listOfItems) throws itemNotFoundException {
         int sum = 0;
 
         for(Item i : listOfItems){
@@ -70,7 +70,7 @@ public class Restaurant {
             }
         }
         return sum;
-    }*/
+    }
 
     public void displayDetails(){
         System.out.println("Restaurant:"+ name + "\n"
